@@ -20,6 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
+In your JavaScript manifest (e.g. application.js)
+
+//= require typed
+
+
+In your Stylesheet manifest (e.g. application.js)
+
+//= require blink
+
 TODO: Write usage instructions here
 
 ## Contributing
