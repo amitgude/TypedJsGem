@@ -25,11 +25,21 @@ In your JavaScript manifest (e.g. application.js)
 //= require typed
 
 
-In your Stylesheet manifest (e.g. application.js)
+In your Stylesheet manifest (e.g. application.css)
 
 //= require blink
 
-TODO: Write usage instructions here
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
+...
+
+<div class="element"></div>
 
 ## Contributing
 
