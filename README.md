@@ -28,7 +28,7 @@ In your JavaScript manifest (e.g. application.js)
 In your Stylesheet manifest (e.g. application.css)
 
 //= require blink
-
+```
 <script>
   $(function(){
       $(".element").typed({
@@ -40,6 +40,9 @@ In your Stylesheet manifest (e.g. application.css)
 ...
 
 <div class="element"></div>
+
+
+```
 
 ## Contributing
 
