@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gudeamit148@gmail.com"]
   spec.summary       = %q{This gem allows to users to simulate typing animation for some text}
   spec.description   = %q{This gem allows to users to simulate typing animation for some text}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/amitgude/TypedJsGem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
