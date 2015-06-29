@@ -1,6 +1,5 @@
 # TypedJS
 
-TODO: Write a gem description
 
 ## Installation
 
@@ -28,7 +27,8 @@ In your JavaScript manifest (e.g. application.js)
 In your Stylesheet manifest (e.g. application.css)
 
 //= require blink
-```
+
+```erb
 <script>
   $(function(){
       $(".element").typed({
@@ -39,15 +39,8 @@ In your Stylesheet manifest (e.g. application.css)
 </script>
 ...
 
-<div class="element"></div>
+<span class="element"></span>
 
 
 ```
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/typedJS/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
